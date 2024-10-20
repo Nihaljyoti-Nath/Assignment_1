@@ -1,0 +1,39 @@
+/* Header.css */
+.header-container {
+  text-align: center; /* Center align text */
+  margin-bottom: 20px; /* Space below the header */
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+  background-color: #333; /* Background color */
+  padding: 30px 20px; /* Padding for navbar */
+}
+
+
+nav {
+  margin-top: 10px; /* Space between logo and navigation */
+}
+
+.nav-links {
+  list-style: none; /* Remove default list styling */
+  display: flex; /* Use flexbox for horizontal alignment */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+.nav-links li {
+  margin: 0 20px; /* Space between links */
+}
+
+.nav-links a {
+  color: white; /* Link color */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s; /* Smooth color transition */
+}
+
+.nav-links a:hover {
+  color: #f39c12; /* Change color on hover */
+}
